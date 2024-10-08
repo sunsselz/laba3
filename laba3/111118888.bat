@@ -1,3 +1,4 @@
 @echo off
-dir \*.txt
+set /P ext=enter ext:
+dir *.%ext%
 pause
